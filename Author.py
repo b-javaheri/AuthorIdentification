@@ -8,7 +8,6 @@ from scipy.cluster.vq import whiten
 sentence_tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 word_tokenizer = nltk.tokenize.RegexpTokenizer(r'\w+')
  
-
 path = r"E:/University/Term.8/ArtificialIntelligence/python/chapters"
 
 files = sorted(glob.glob(os.path.join(path, "chapter*.txt")))
@@ -69,3 +68,4 @@ def PredictAuthors(fvs):
  
     return km
 
+###
